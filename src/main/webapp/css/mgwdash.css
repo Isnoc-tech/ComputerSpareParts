@@ -1,0 +1,142 @@
+@charset "ISO-8859-1";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+body{
+	margin-top:20px;
+	background:#eee;
+	margin: 0 auto;
+	background-image: url(../images/fbg.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+}
+
+footer{
+	background-color: #1B262C;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #0F4C75;
+  
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar a.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #000;
+}
+
+/* Navigation links */
+.navbar-nav {
+  margin-left: auto; 
+
+.navbar-nav .nav-link {
+  color: #000 !important; 
+}
+
+/* Dropdown menu */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  transform: translateX(-30%);
+}
+
+.dropdown-item {
+  color: #000 !important;
+  background-color: #fff; 
+  border: none;
+}
+
+/* Logout button */
+.navbar-nav .nav-item.form-logout {
+  margin-left: 30px; 
+}
+
+
+
+
+.card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+
+.avatar.sm {
+    width: 2.25rem;
+    height: 2.25rem;
+    font-size: .818125rem;
+}
+
+
+.table-nowrap .table td, .table-nowrap .table th {
+    white-space: nowrap;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.75rem 1.25rem;
+    border-bottom-width: 1px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.search-input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+
+.search-button {
+    width: 100px;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.sidebar {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.sidebar a {
+    color: #fff;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+}
+}

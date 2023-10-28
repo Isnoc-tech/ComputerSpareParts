@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+body{
+	margin-top:20px;
+	background:#eee;
+	margin: 0 auto;
+	background-image: url(../images/placeorder.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+}
+.card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+
+
+
+.sidebar {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.sidebar a {
+    color: #fff;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+}
